@@ -5,6 +5,11 @@
       "proxyTarget": "http://localhost:9000",
       "fallbackBasePath": "/beta/apps/rhosak-control-plane-ui-build"
     },
+    "sa_poc": {
+      "basePath": "/mas-local-fm/sa-poc",
+      "proxyTarget": "http://localhost:8000",
+      "fallbackBasePath": "/beta/apps/rhosak-control-plane-ui-build"
+    },
     "kafka": {
       "basePath": "/mas-local-fm/kafka",
       "proxyTarget": "http://localhost:8080",
