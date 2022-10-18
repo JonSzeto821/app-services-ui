@@ -7,7 +7,7 @@ import { AppServicesLoading } from "@rhoas/app-services-ui-components";
 export const ServiceAccountsPage: VoidFunctionComponent = () => {
   return (
     <FederatedModule
-      scope="kas"
+      scope="sas"
       module="./ServiceAccounts"
       fallback={<AppServicesLoading />}
       render={(component) => (

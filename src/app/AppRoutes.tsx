@@ -69,11 +69,8 @@ const RolesPage = lazy(() => import("@app/pages/ServiceRegistry/RolesPage"));
 const SettingsPage = lazy(
   () => import("@app/pages/ServiceRegistry/SettingsPage")
 );
-// const ServiceAccountsPage = lazy(
-//   () => import("@app/pages/ServiceAccounts/ServiceAccountsPage")
-// );
-const ServiceAccountsPagePOC = lazy(
-  () => import("@app/pages/ServiceAccountsPOC/ServiceAccountsPagePOC")
+const ServiceAccountsPage = lazy(
+  () => import("@app/pages/ServiceAccounts/ServiceAccountsPage")
 );
 const CosPage = lazy(() => import("@app/pages/CosPage/CosPage"));
 const ServiceRegistryPage = lazy(
@@ -294,7 +291,7 @@ const appRoutes: AppRouteConfig<unknown>[] = [
     devPreview: true,
   },
   {
-    component: ServiceAccountsPagePOC,
+    component: ServiceAccountsPage,
     exact: true,
     label: "Service Accounts",
     path: "/service-accounts",
