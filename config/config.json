@@ -5,8 +5,8 @@
       "proxyTarget": "http://localhost:9000",
       "fallbackBasePath": "/beta/apps/rhosak-control-plane-ui-build"
     },
-    "sa_poc": {
-      "basePath": "/mas-local-fm/sa-poc",
+    "sas": {
+      "basePath": "/mas-local-fm/sas",
       "proxyTarget": "http://localhost:8000",
       "fallbackBasePath": "/beta/apps/rhosak-control-plane-ui-build"
     },

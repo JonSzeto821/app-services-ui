@@ -34,7 +34,7 @@ export const useAuth = (): Auth => {
     kas: {
       getToken,
     },
-    sa_poc: {
+    sas: {
       getToken,
     },
     ams: {

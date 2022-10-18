@@ -7,8 +7,8 @@ import { AppServicesLoading } from "@rhoas/app-services-ui-components";
 export const ServiceAccountsPagePOC: VoidFunctionComponent = () => {
   return (
     <FederatedModule
-      scope="sa_poc"
-      module="./ServiceAccountsPOC"
+      scope="sas"
+      module="./ServiceAccounts"
       fallback={<AppServicesLoading />}
       render={(component) => (
         <ServiceAccountsPagePOCConnected Component={component} />
